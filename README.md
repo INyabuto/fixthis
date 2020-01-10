@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of fixthis is to ...
+The goal of fixthis is to help resolve common issues With PSI-MIS.
 
 ## Installation
 
