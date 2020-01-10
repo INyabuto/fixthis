@@ -1,0 +1,25 @@
+Package: fixthis
+Title: Fix Common Issues With PSI-MIS
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Isaiah",
+           family = "Nyabuto",
+           role = c("cre", "aut"),
+           email = "isaiahnyabuto@gmail.com")
+Description: Use this to fix commonly known issues at PSI
+    freshdesk.
+License: MIT + file LICENSE
+URL: http://this
+BugReports: http://that
+Imports: 
+    curl,
+    httr,
+    jsonlite,
+    purrr,
+    magrittr
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Suggests: 
+    testthat (>= 2.1.0)
