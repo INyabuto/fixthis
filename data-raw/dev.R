@@ -77,3 +77,4 @@ usethis::use_test("placeholder")
 # set up git
 use_git()
 git_vaccinate()
+usethis::use_readme_md()
