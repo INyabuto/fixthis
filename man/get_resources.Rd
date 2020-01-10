@@ -7,6 +7,9 @@
 get_resources(url = "", type = NULL, id = NULL, ...)
 }
 \arguments{
+\item{url}{a character string (or more extended vector, e.g., for the
+"libcurl." method) naming the base URL of the server.}
+
 \item{type}{a character string with the name of a resource to pull. e.g data
 elements, maps, charts. By default it will retrieves all the resource end
 points available at PSI - MIS.}
@@ -15,9 +18,6 @@ points available at PSI - MIS.}
 
 \item{...}{allow additional arguments to be passed. Example a filter, or a
 query.}
-
-\item{URL}{a character string (or more extended vector, e.g., for the
-"libcurl." method) naming the base URL of the server.}
 }
 \value{
 an S3 type object with the content of the resource, path and the

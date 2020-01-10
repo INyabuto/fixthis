@@ -3,7 +3,7 @@
 #' This is function pulls a resource at PSI - MIS web API. It returns a list the
 #' content, path, and the response.
 #'
-#' @param URL a character string (or more extended vector, e.g., for the
+#' @param url a character string (or more extended vector, e.g., for the
 #'   "libcurl." method) naming the base URL of the server.
 #' @param type a character string with the name of a resource to pull. e.g data
 #'   elements, maps, charts. By default it will retrieves all the resource end

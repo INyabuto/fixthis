@@ -3,7 +3,7 @@
 #' This function gets the owner of a visualization. it's used in the
 #' \code{dash_builders} to extract a list of dashboard collaborators
 #'
-#' @param dashboardItem A data frame with visualization ids.
+#' @param visual A data frame with visualization ids.
 #' @param type A character vector indicating the type of visualization. Example;
 #'   maps, charts or reportTables.
 #' @param server A character vector specifying the server URL.

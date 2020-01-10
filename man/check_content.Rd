@@ -6,6 +6,12 @@
 \usage{
 check_content(res)
 }
+\arguments{
+\item{res}{A character, the http response}
+}
+\value{
+An error if content is not json
+}
 \description{
 check the api returned json
 }

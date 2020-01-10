@@ -6,6 +6,12 @@
 \usage{
 has_multiple_ids(visual)
 }
+\arguments{
+\item{visaul}{A data frame with visualization ids.}
+}
+\value{
+logical output
+}
 \description{
 checks if the visaulization has muiltiple ids
 }

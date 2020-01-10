@@ -72,3 +72,8 @@ devtools::document()
 usethis::use_testthat()
 
 usethis::use_test("placeholder")
+
+
+# set up git
+use_git()
+git_vaccinate()

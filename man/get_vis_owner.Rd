@@ -7,12 +7,12 @@
 get_vis_owner(visual, type, server)
 }
 \arguments{
+\item{visual}{A data frame with visualization ids.}
+
 \item{type}{A character vector indicating the type of visualization. Example;
 maps, charts or reportTables.}
 
 \item{server}{A character vector specifying the server URL.}
-
-\item{dashboardItem}{A data frame with visualization ids.}
 
 \item{...}{Additional parameters passed to get_resources API.}
 }
