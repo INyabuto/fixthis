@@ -9,7 +9,7 @@ The goal of fixthis is to help resolve some commomly known bugs / issues in PSI-
 
 ## Installation
 
-fixthis is not in cran yet. you can install it directly from github with:
+fixthis is not yet in cran. you can install it directly from github with:
 
 
 ``` r
