@@ -4,15 +4,15 @@
 \alias{get_vis_owner}
 \title{Get the owner of a visualization}
 \usage{
-get_vis_owner(visual, type, server)
+get_vis_owner(visual, type = NULL, baseurl)
 }
 \arguments{
-\item{visual}{A data frame with visualization ids.}
+\item{visual}{a data frame with visualization ids.}
 
-\item{type}{A character vector indicating the type of visualization. Example;
+\item{type}{a character vector indicating the type of visualization. Example;
 maps, charts or reportTables.}
 
-\item{server}{A character vector specifying the server URL.}
+\item{baseurl}{a character vector specifying a URL of the server.}
 
 \item{...}{Additional parameters passed to get_resources API.}
 }

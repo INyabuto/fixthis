@@ -14,6 +14,6 @@ get_dash_builders(id = NULL, baseurl = "", ...)
 \item{...}{Additional parameters passed to \code{get_resource}}
 }
 \description{
-This function provides a list of users working on a dashboard. This includes;
+This function provides a list of users working on a common dashboard. This includes;
 collaborators and dashboard owners.
 }
