@@ -13,6 +13,7 @@
 #'   query.
 #' @return an S3 type object with the content of the resource, path and the
 #'   response
+#' @export
 get_resources <- function(url = "", type = NULL, id = NULL, ...){
 
   if (is_baseurl(url)){
