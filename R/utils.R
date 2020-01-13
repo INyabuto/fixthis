@@ -1,3 +1,6 @@
+params <- function(...) paste0(..., collapse = ",")
+
+
 #' @importFrom curl has_internet
 #' @noRd
 check_internet <- function(){
@@ -87,3 +90,5 @@ vis_ids <- function(visual){
   }
 
 }
+
+
