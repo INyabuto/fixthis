@@ -12,9 +12,6 @@
 #' @export
 get_vis_owner <- function(visual, type = NULL, baseurl){
 
-
-  #gsub(" ","",toString(vis_ids(visual)))
-
   if (has_multiple_ids(visual)){
     query <- paste0("filter=id:in:[", params(vis_ids(visual)), "]&fields=user[name,id]")
     ids <- NULL
