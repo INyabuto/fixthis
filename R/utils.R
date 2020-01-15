@@ -1,5 +1,10 @@
 params <- function(...) paste0(..., collapse = ",")
 
+type  <- function(...){
+  substr(..., 1, nchar(...) - 1)
+}
+
+
 
 #' @importFrom curl has_internet
 #' @noRd
@@ -91,4 +96,23 @@ vis_ids <- function(visual){
 
 }
 
+
+generateUID <- function(codeSize = 11){
+  # Generate a random seed
+  runif(1)
+  allowedLetters <- c(LETTERS, letters)
+  allowedChars <- c(LETTERS, letters, 0:9)
+  # first character must be a letter according to the DHIS2 spec
+  firstChar <- sample(allowedLetters, 1)
+  otherChars <- sample(allowedChars, codeSize - 1)
+  uid <- paste(c(firstChar, paste(otherChars, sep = "", collapse = "")), sep = "", collapse = "")
+  return(uid)
+}
+
+
+vis <- function(..., id = ""){
+  d <- list(... = list(id = id))
+  names(d) <- c(...)
+  d
+}
 
