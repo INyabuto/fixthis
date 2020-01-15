@@ -2,8 +2,10 @@
 
 S3method(print,add_dashboard)
 S3method(print,dash_builders)
+S3method(print,dashboard)
 S3method(print,get_resources)
 export(add_dashboard)
+export(add_dashboard_items)
 export(construct_url)
 export(get_resources)
 export(get_unshared_vis)
